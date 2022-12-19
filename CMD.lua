@@ -1,3 +1,4 @@
+task.spawn(function()
 AddCommand("af2", {"antifling2"}, "Makes you unable to be flung in some cases ", function()
 local lp = game:GetService("Players").LocalPlayer
 local rs = game:GetService("RunService")
@@ -33,4 +34,11 @@ rs.Stepped:Connect(function()
         end
     end)
 end)
+end)
+
+
+
+
+
+----------------------------------------------
 end)
