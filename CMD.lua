@@ -227,7 +227,7 @@ AddCommand("autoexecute", {}, "Allows Atlas to automatically re-execute after yo
             queueteleport([[
                 repeat task.wait() until game:IsLoaded();
                 task.wait(1)
-                loadstring(game:HttpGet("atlas-host.github.io/temp-atlas"))()
+loadstring(game:HttpGet("https://atlas-Host.github.io/temp-atlas"))()
             ]])
         end
     else
@@ -267,6 +267,6 @@ if not isfile("noexecute_atlas.txt") then
     queueteleport([[
         repeat task.wait() until game:IsLoaded();
         task.wait(1)
-        loadstring(game:HttpGet("atlas-host.github.io/temp-atlas"))()
+        loadstring(game:HttpGet("https://atlas-Host.github.io/temp-atlas"))()
     ]])
 end
