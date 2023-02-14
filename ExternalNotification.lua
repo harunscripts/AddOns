@@ -1,3 +1,5 @@
+print("hey rain :(")
+
 local GuiService = game:GetService("GuiService")
 -- << Services >> --
 local TweenService, Core do
